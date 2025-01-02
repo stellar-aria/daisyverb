@@ -21,7 +21,7 @@ enum SystemModel {
 };
 
 daisy::DaisyPatch patch;
-SystemModel model = SYSTEM_MODEL_APDEMO;
+SystemModel model = SYSTEM_MODEL_RINGS;
 std::array<float, 32768> DSY_SDRAM_BSS delay_line_buffer;
 
 // Delay
